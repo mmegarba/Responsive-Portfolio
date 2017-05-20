@@ -47,9 +47,10 @@ header{
 
 section{
 
-float:left;
+float:none !important;
 width:100% !important;
-margin-left:5%;
+margin-left:5% !important;
+margin-right:5% !important;
 clear:both;
 background:white;
 padding:20px;
@@ -64,11 +65,11 @@ position:relative;
 #aside{
 clear:both !important;                                                                                                                                 
 width:100% !important;
-margin-left:5%;
-margin-right:20%;
-padding:60px !important;
+margin-left: 5% !important;
+padding:20px !important;
 background:white;
 margin-top:20px;
+margin-right:5% !important;
 }
 
 #imgme{
