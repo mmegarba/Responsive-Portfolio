@@ -1,23 +1,18 @@
 
-@media  (min-width:0px) and (max-width:640px)
+@media (max-width:640px)
 {
 
-header{
 
-  margin-left:0 !important; 
-  background-color:#ffffff;
-  padding:0 !important;
-  
-
-
-}
 #name{
 
-  width:100% !important;
-  float:none !important;
-  margin-left:0 !important; 
-  position:static !important;
+  width:670px !important;
+  clear:both !important;
+  margin:0 !important; 
+  position:relative !important;
   height:20px !important;
+  padding:20px !important;
+  bottom:20px !important;
+  right:30px !important;
 }
 
 
@@ -27,7 +22,8 @@ header{
     width:100% !important;
     padding: 0;
     clear:both !important;
-    
+    margin-top:20px !important;
+
 }
 
 #navigation ul li
@@ -35,15 +31,32 @@ header{
     width:100% !important;
     list-style-type: none;
     display: inline;
-    margin-left:10% !important;
+    margin-left:15% !important;
+    clear:both !important;
+
 }
 
 #navigation li:not(:first-child):before {
     content:none !important;
     font-size:18pt;
     font-color:#777777;
+    margin-left:15% !important;
+    margin-top:20px !important;
+    clear:both !important;
+
+
 }
 
+header {
+
+  width: 660px !important;
+  margin-top:-10;
+  padding: 20px;  
+  background-color:#ffffff;
+  /*margin-left:-10px;*/
+  height:60px;
+  position:static !important;
+}
 
 section{
 
@@ -54,7 +67,7 @@ margin-right:5% !important;
 clear:both;
 background:white;
 padding:20px;
-margin-top:20px;
+margin-top:60px !important;
 margin-bottom:20px;
 /*height:100%;*/
 padding-bottom:20px;
@@ -88,6 +101,11 @@ margin-right:5% !important;
   padding:20px;
 }
 
+
+#connectwithme{
+
+  text-align:left !important;
+}
 
 }
 
@@ -141,7 +159,7 @@ header {
   margin-top:-10;
   padding: 20px;  
   background-color:#ffffff;
-  margin-left:-10;
+  /*margin-left:-10px;*/
   height:60px;
 }
 
@@ -263,10 +281,14 @@ border-color:lightgrey;
     cursor: pointer;
 }
 
+#connectwithme
+{
+  text-align:center;
+}
 
 
 
-#navigation ul
+/*#navigation ul*/
 {
     margin: 0;
     padding: 0;
@@ -274,13 +296,13 @@ border-color:lightgrey;
     margin-left:25%;
 }
 
-#navigation ul li
+/*#navigation ul li*/
 {
     list-style-type: none;
     display: inline;
 }
 
-#navigation li:not(:first-child):before {
+/*#navigation li:not(:first-child):before {*/
     content: " | ";
     font-size:18pt;
     font-color:#777777;
