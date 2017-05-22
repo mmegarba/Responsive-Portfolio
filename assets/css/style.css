@@ -48,6 +48,7 @@ header {
   background-color:#ffffff;
   /*margin-left:-10px;*/
   height:60px;
+  position:static;
 }
 
 
@@ -73,7 +74,7 @@ footer {
   border-top:solid;
   border-width:5px;
   border-color:#4aaaa5;
-  z-index:3;
+  z-index:3000;
   height:20px;
   color:white;
 }
@@ -84,7 +85,6 @@ floating-box {
     width: 40%;
     height: 250px;
     margin: 10px;
-    border: 5px solid;
     float:left;
     position:relative;
 }
@@ -176,6 +176,11 @@ p{
   color:black;
 }
 
+#container
+{
+  width:980px;
+
+}
 
 
 @media screen and (max-width:980px)
@@ -232,6 +237,15 @@ margin-left:5%;
 
 }
 
+floating-box
+{
+display:block;
+float:none;
+width:100%;
+right:15px;
+
+}
+
 h1{
 font-size:14pt;
 }
@@ -257,6 +271,15 @@ width:90%;
 margin-left:5%;
 margin-right:5%;
 clear:both;
+}
+floating-box
+{
+display:inline-block;
+float:left;
+width:45%;
+right:15px;
+left:10px;
+
 }
 
 #connectwithme{
@@ -346,7 +369,16 @@ header{
   padding-bottom:100px;
 }
 
+floating-box
+{
+display:block;
+float:none;
+width:85%;
+left:20px;
+margin-top:40px;
+}
 
+}
 
 
 
