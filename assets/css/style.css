@@ -1,85 +1,4 @@
 
-@media (min-width:640px)
-{
-
-#aside
-{
-  clear:both !important;
-  width:90% !important;
-  margin-left:5% !important;
-  margin-right:5% !important;
-  height:200px !important;
-  margin-bottom: 20px !important;
-}
-
-section{
-
-  width:90% !important;
-  margin-left:5% !important;
-  margin-right:5% !important;
-}
-
-#imgicon{
-
-  width:5% !important;
-  margin-left:5% !important;
-}
-
-#imgme{
-
-  width:100% !important;
-  height:200px !important; 
-  clear:both !important; 
-  margin-right:20px;
-   margin-bottom:20px
-
-}
-
-#name
-{
-width:100% !important;
-margin-left:-10px!important;
-height:60px!important;
-position:static !important;
-}
-
-header{
-  width:100% !important;
-  margin:0 !important;
-  height:60px !important;
-}
-
-
-#navbars
-{
-  height:40px;
-  /*border-style:solid;*/
-  border-width:5px;
-  background:white;
-  position:absolute;
-  margin-left:-10px;
-  bottom:550px;
-  z-index:3;
-  width:100%;
-
-
-}
-
-
-
-#navli
-{
-  display:inline-block;
-  color:grey;
-  clear:both;
-  margin-left:20%
-}
-
-}
-
-
-
-
 
 html
 {
@@ -95,7 +14,7 @@ body {
   font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   margin-top:-20px; 
   /*to fix the header not touch top*/
-  width:100%;
+  min-height:100%;
 }
 
 h1{
@@ -253,6 +172,129 @@ border-color:lightgrey;
 {
   text-align:center;
 }
+
+
+p{
+  color:black;
+}
+
+
+
+
+@media  screen and (max-width:640px) 
+{
+
+#aside
+{
+  clear:both !important;
+  width:90% !important;
+  margin-left:5% !important;
+  margin-right:5% !important;
+  height:200px !important;
+  margin-bottom: 20px !important;
+}
+
+section{
+
+  width:90% !important;
+  margin-left:5% !important;
+  margin-right:5% !important;
+  margin-top:70px !important;
+}
+
+#imgicon{
+
+  width:10% !important;
+  margin-left:5% !important;
+  margin-top:20px !important;
+}
+
+#imgme{
+
+  width:100% !important;
+  height:200px !important; 
+  clear:both !important; 
+  margin-right:20px;
+   margin-bottom:20px
+
+}
+
+#name
+{
+width:100% !important;
+margin-left:-10px!important;
+height:40px!important;
+position:static !important;
+padding:20px !important;
+}
+
+header{
+  width:100% !important;
+  margin:0 !important;
+  height:60px !important;
+}
+
+
+#navbars
+{
+  height:40px;
+  background:white;
+  position:absolute;
+  top:40px;
+  z-index:3;
+  width:100%;
+  left:0px;
+}
+
+
+
+#navli
+{
+  display:inline-block;
+  color:grey;
+  clear:both;
+  margin-left:10%;
+  text-align:center;
+}
+
+h1
+{
+  text-align:left !important;
+}
+}
+
+
+
+/***********Next Break**********/
+
+@media screen and (max-width:640px);
+{
+
+
+#imgme{
+
+
+  float:left !important;
+}
+
+
+p{
+  color:blue !important;
+}
+
+h1{
+
+  color:blue !important;
+}
+
+
+
+
+
+
+
+}
+
 
 
 
