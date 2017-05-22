@@ -182,7 +182,7 @@ p{
 
 }
 
-
+/*****Anything greater than this screensize will break*/
 @media screen and (max-width:980px)
 {
 
@@ -251,6 +251,7 @@ font-size:14pt;
 }
 
 }
+
 
 @media screen and (max-width:768px)
 {
